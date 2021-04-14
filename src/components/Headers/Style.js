@@ -23,4 +23,8 @@ export const ListMenu = styled.ul`
 export const Menu = styled.li`
   cursor: pointer;
 `;
-export const MenuItem = styled.a``;
+export const MenuItem = styled.a`
+  &:hover {
+    text-decoration: underline;
+  }
+`;
