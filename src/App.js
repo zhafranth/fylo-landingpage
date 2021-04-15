@@ -1,7 +1,7 @@
 import "./app.scss";
 
 // Component
-import { Benefit, Header, Hero, Product } from "./components";
+import { Benefit, Header, Hero, Product, Testimoni } from "./components";
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,7 @@ function App() {
       <Hero />
       <Benefit />
       <Product />
+      <Testimoni />
     </div>
   );
 }
