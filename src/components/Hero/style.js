@@ -1,6 +1,7 @@
 import styled from "styled-components/macro";
 
 export const MainHero = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,4 +50,15 @@ export const Button = styled.button`
   border: 0;
   cursor: pointer;
   font-weight: 700;
+`;
+
+export const BgCurvy = styled.img`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  z-index: -1;
 `;

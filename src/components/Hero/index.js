@@ -2,6 +2,7 @@ import React from "react";
 
 // Images
 import HeroImage from "../../assets/illustration-intro.png";
+import BgCurvyImg from "../../assets/bg-curvy-desktop.svg";
 
 // Components
 import {
@@ -12,6 +13,7 @@ import {
   Title,
   Desc,
   Button,
+  BgCurvy,
 } from "./style";
 
 const style = () => {
@@ -31,6 +33,7 @@ const style = () => {
         </Desc>
         <Button>Get Started</Button>
       </MetaWrapper>
+      <BgCurvy src={BgCurvyImg} />
     </MainHero>
   );
 };
