@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 export const MainTestimoni = styled.div`
-  padding: 4rem 12vw;
+  padding: 4rem 12vw 20rem 12vw;
   background-color: #181f2b;
 `;
 export const WrapperCard = styled.div`
@@ -19,6 +19,9 @@ export const Card = styled.div`
   width: 30%;
   color: #fff;
   z-index: 2;
+  @media screen and (max-width: 990px) {
+    width: 70%;
+  }
 `;
 export const Desc = styled.h5`
   font-weight: 700;
